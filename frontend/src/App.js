@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
 import { Container } from "react-bootstrap";
+import HomeScreen from "./component/Screens/HomeScreen";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <main>
         <Container>
-          <h1>Welcome to Just Shop</h1>
+          <HomeScreen />
         </Container>
       </main>
 
