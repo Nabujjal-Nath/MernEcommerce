@@ -1,0 +1,31 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #10171dc4;
+}
+#jsp {
+  color: burlywood;
+}
+
+#nav a {
+  color: #f9f6ee;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 30px;
+}
+i {
+  color: burlywood;
+}
+.btn {
+  cursor: pointer;
+  border: 1px solid #161e30;
+  padding: 8px;
+  min-width: 64px;
+  background: rgb(18, 18, 39);
+  border-color: #f9f6ee;
+  border-radius: 10px;
+  color: #f9f6ee;
+  font-size: large;
+  transition: all 0.1s ease-in;
+}
